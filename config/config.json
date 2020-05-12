@@ -1,0 +1,25 @@
+{
+  "port": 3000,
+  "mongoose": {
+    "uri": "mongodb://ds245347.mlab.com:45347/heroku_tk4cs3lq",
+    "options": {
+      "user": "webserver",
+      "pass": "84BqC9cL9BI1xWWI7zSk"
+    }
+  },
+  "jwt": {
+    "tokenLifetimeInHours": 3,
+    "secret": "0EBioS5bdjSyb8NYg8tkIsjubw4ZmyReyetYo7EOGVlUYiZWCI07vC8jhJEp6GmA"
+  },
+  "bcrypt": {
+    "saltRounds": 10,
+    "secret": "CYFI0NNcStUHKIkq6QDS43ER0yWuKdmXqaTy8Xbe2YLfhzEsFit36RV6OsA5JqGF"
+  },
+  "emailVerification": {
+    "tokenLength": 32,
+    "tokenLifetimeInHours": 24
+  },
+  "website": {
+    "address": "http://kenzhemir.herokuapp.com/"
+  }
+}
